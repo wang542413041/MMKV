@@ -20,6 +20,11 @@
 
 #import "MMKVHandler.h"
 
+/*
+进程模式：十六进制
+1. 单进程
+2. 多进程【安卓】
+*/
 typedef NS_ENUM(NSUInteger, MMKVMode) {
     MMKVSingleProcess = 0x1,
     MMKVMultiProcess = 0x2,
